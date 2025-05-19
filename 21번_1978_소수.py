@@ -22,7 +22,7 @@ x=list(map(int,input().split()))
 
 cnt =0  # cnt는 소수의 개수
 
-for i in range(N): # N 만큼번반복
+for i in range(N): # N 만큼 반복
     cnt = cnt + prime(x[i])
     
 
