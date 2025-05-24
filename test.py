@@ -5,8 +5,6 @@ def expt(b,n):
     else:
         return b * expt(b,n-1)
 
-print(expt(10,4))
-
 def square(n):
     return n*n
 
@@ -20,8 +18,6 @@ def fast_expt(b,n):
         else : #홀수일때
             return b* expt(b,n-1)
 
-print(fast_expt(10,4))
-
 def fib(n):
     if n==0:
         return 0
@@ -30,6 +26,16 @@ def fib(n):
     else:
         return fib(n-1)+fib(n-2)
     
-print(fib(5))
+
 ##################################
-# 1 1 2 3 5
+
+max=0
+idx=0
+
+for i in range(9):
+    n=int(input())
+    if n>max:
+        max=n
+        idx=i
+print(max)
+print(idx+1)

@@ -3,7 +3,7 @@
 # 낮에 A 미터 + , 밤에 B 미터 - 
 # 높이는 V미터
 # 모두 올라가려면 며칠?
-
+import math
 A,B,V = map(int,input().split(' '))   
 
 # up = 0  # 지금까지 올라간 높이
