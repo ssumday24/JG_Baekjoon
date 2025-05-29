@@ -1,18 +1,5 @@
 # 1920 : 수 찾기
 
-# def loop(): #루프 함수
-
-#     for i in range(M):
-#         cnt=0
-#         for j in A_arr:
-#             if M_arr[i]==j:
-#                 cnt+=1
-#                 print(1)
-#                 break # M_arr 의 다음 원소로 넘어가기
-#         if cnt==0:
-#             print(0)    
-        
-
 def binary_find(): #이진탐색 함수
     A_arr.sort() #탐색전에 정렬
      
